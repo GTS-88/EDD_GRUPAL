@@ -1,8 +1,20 @@
 Sara, Luis, Jesus y Guille.
 
-Lista Barbacoa:
+Lista Barbacoa Categorizada:
+
+1. Carnes:
+
 -Hamburguesa 
--Mayonesa
--Cocacola
--Ketchut
 -Salchichas
+
+2. Bebida:
+-Cocacola
+
+3. Snacks y Salsas:
+-Mayonesa
+-Ketchut
+
+4. Otros:
+
+- Carbón
+- Altavoces
