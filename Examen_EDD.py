@@ -8,6 +8,18 @@
 
 #Nota: El precio por minuto de Acciona es de 0.31cent/min en Standar, 0,36 cent/min en Custom y 0,39€ cent/min en X-tra.
 
+minutos = int(input("Introduce cunatos minutos durara el viaje: "))
+tipo_viaje = input("Introduce el tipo de viaje (Acciona, Standar y Custom o X-tra): ")
+respuesta = ""
+
+if tipo_viaje=="Acciona":
+    respuesta = minutos*0.31
+elif tipo_viaje=="Standard":
+    respuesta = minutos*0.36
+elif tipo_viaje=="Custom" or tipo_viaje=="X-tra":
+    respuesta = minutos*0.39
+
+print(respuesta)
 
 #Actividad 2. (1 punto) git. Qué es un repositorio?¿Qué comando es necesario para crear un repositorio?  ¿Cómo configurarías inicialmente git?
 """ Un repositorio es el area de trabajo donde se guarda unos archivos y ficheros , el comando para crear un repositorio es git init  , lo configuraría primero poniendo mi nombre de usuario , el email , con el comando git config --global user.name y user.email.
@@ -23,7 +35,15 @@ Despues crearia los directorios o archivos donde me gustaria iniciar mi reposito
 #Actividad 4. (1 punto) 1.¿Cómo observaríamos el estado de nuestro repositorio? 2.¿Cómo comprobamos los commits realizados?
 #3.¿Con cuál instrucción prepararíamos el repositorio para pasar de working area a staging area?
 """
-
+1) Para observar el estado de nuestro repositorio usaremos el comando git status, con el 
+cual podremos ver los archivos que estan en el area de staging, los que han sido modificados 
+pero no estan en este area y los archivos no rastreados.
+2) Para comprobar o revisar los commits que se han realizado utilizaremos el comando git log,
+el cual nos muestra tanto quien ha realizado dicho commit, cuando lo ha realizado y en que rama
+ha sido ejecutado.
+3) Para pasar los archivos de working area a staging area utilizaremos el comando git add más 
+el nombre del archivo (git add nombre_archivo) o para subir todos los archivos realizados utlizamos git add más un 
+punto (git add .). 
 """
 
 #Actividad 5. (1 punto) Haciendo uso del debugger, corrige los errores sintácticos del siguiente programa que dado dos números, devuelve el mayor. 
