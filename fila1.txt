@@ -9,6 +9,8 @@ Lista Barbacoa Categorizada:
 
 2. Bebida:
 -Cocacola
+- Fanta
+- Pêpsi
 
 3. Snacks y Salsas:
 -Mayonesa
