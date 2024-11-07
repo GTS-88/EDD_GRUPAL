@@ -8,6 +8,22 @@
 
 #Nota: El precio por minuto de Acciona es de 0.31cent/min en Standar, 0,36 cent/min en Custom y 0,39€ cent/min en X-tra.
 
+minutos = int(input("Introduzca los minutos del viaje: "))
+
+tipo_viaje = input("Introduzca el tipo de viaje que quieres (los tipos son \n"
+                   "Acciona, Standar y Custom o X-tra): ")
+resultado = 0
+if tipo_viaje=="Acciona":
+    resultado = minutos*0.31/100
+if tipo_viaje=="Standar":
+    resultado = minutos*0.36/100
+if tipo_viaje=="Custom" or tipo_viaje=="X-tra":
+    resultado = minutos*0.39/100
+
+print(resultado)
+
+
+
 
 #Actividad 2. (1 punto) git. Qué es un repositorio?¿Qué comando es necesario para crear un repositorio?  ¿Cómo configurarías inicialmente git?
 """
@@ -16,6 +32,7 @@
 
 #Actividad 3. (1 punto) ¿Qué es una rama?¿Cómo creamos una rama y trabajamos entre ellas?¿Y si queremos unir ramas?
 """
+
 
 """
 
@@ -29,12 +46,10 @@
 # Explica el proceso completo de depuración para el siguiente código, incluyendo la inspección de variables desde el inicio hasta el final del proceso.
 
 def max(n1, n2):
-    if n2<n1:
+    if n2>n1:
         return n2
-    elif n1<n2:
-        return n1
     else:
-        return n2
+        return n1
 print(max(100,50))
 
 
@@ -44,7 +59,6 @@ print(max(100,50))
 """
 
 """
-
 
 #Actividad 7. Pseint (1 punto) Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Además, queremos saber si el porcentaje es par o impar.
 # En el caso de ser 0, debe visualizar “el número no es par ni impar”  Diseñar un algoritmo para este propósito . 
