@@ -1,4 +1,4 @@
-Sara, Luis, Jesus y Guille.
+Luis, Jesus y Guille.
 
 Lista Barbacoa Categorizada:
 
@@ -9,6 +9,8 @@ Lista Barbacoa Categorizada:
 
 2. Bebida:
 -Cocacola
+- Fanta
+- Pêpsi
 
 3. Snacks y Salsas:
 -Mayonesa
