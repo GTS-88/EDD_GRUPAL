@@ -29,15 +29,17 @@
 # Explica el proceso completo de depuración para el siguiente código, incluyendo la inspección de variables desde el inicio hasta el final del proceso.
 
 def max(n1, n2):
-    if n2<n1:
-        return n2
-    elif n1<n2:
+    if n1>n2:
         return n1
     else:
         return n2
 print(max(100,50))
+"""
+El operador de comparación está justo al contrario, ya que retorna el menor y no el mayor, si cambias < por > en ambos,
+obtendríamos el mayor de dos números. Realmente la primrea parte no haría falta ya cumple la condición de máximo con el
+elif + else posterior.
 
-
+"""
 #Actividad 6. Pseint (1 punto) En un supermercado se hace una promoción, mediante la cual el cliente obtiene un descuento dependiendo de un número que se escoge al azar entre 0 y 500.
 # Si el número escogido es menor que 100 el descuento es del 10% sobre el total de la compra, si es mayor o igual a 100 el descuento es del 20%. Además, si el número es par,  
 # se le aplicará un 2% adicional. Por el contrario, si es impar, se le aplicará un 3%.
