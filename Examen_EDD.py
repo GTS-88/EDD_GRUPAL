@@ -10,7 +10,8 @@
 
 
 #Actividad 2. (1 punto) git. Qué es un repositorio?¿Qué comando es necesario para crear un repositorio?  ¿Cómo configurarías inicialmente git?
-"""
+""" Un repositorio es el area de trabajo donde se guarda unos archivos y ficheros , el comando para crear un repositorio es git init  , lo configuraría primero poniendo mi nombre de usuario , el email , con el comando git config --global user.name y user.email.
+Despues crearia los directorios o archivos donde me gustaria iniciar mi repositorio.
 
 """
 
