@@ -6,10 +6,7 @@ Lista Barbacoa Categorizada:
 
 - Hamburguesa 
 - Salchichas
-- Filetes pollo
-- Filete lomo
-- Ternera
-- Chuletas cerdo
+
 
 2. Bebida:
 - Cocacola
@@ -21,16 +18,9 @@ Lista Barbacoa Categorizada:
 - Mayonesa
 - Ketchut
 - Cheddar
-- Barbacoa
-- Cesar
+
 
 4. Otros:
 
 - Carbón
 - Altavoces
-- Juegos mesa
-- Platos
-- Basos
-- Servilleta
-- Pan hamburguesa
-- Pan perritos
