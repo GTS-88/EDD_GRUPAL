@@ -23,15 +23,20 @@ tipo_viaje = input("Introduce el tipo de viaje (Standar, Custom o X-tra): ")
 print(calcular_precio(tipo_viaje,minutos))
 
 #Actividad 2. (1 punto) git. Qué es un repositorio?¿Qué comando es necesario para crear un repositorio?  ¿Cómo configurarías inicialmente git?
-""" Un repositorio es el area de trabajo donde se guarda unos archivos y ficheros , el comando para crear un repositorio es git init  , lo configuraría primero poniendo mi nombre de usuario , el email , con el comando git config --global user.name y user.email.
-Despues crearia los directorios o archivos donde me gustaria iniciar mi repositorio.
+print("Un repositorio es el area de trabajo donde se guarda unos archivos y ficheros , el comando para crear un repositorio es git init  , lo configuraría primero poniendo mi nombre de usuario , el email , con el comando git config --global user.name y user.email.Despues crearia los directorios o archivos donde me gustaria iniciar mi repositorio.")
 
-"""
+
 
 #Actividad 3. (1 punto) ¿Qué es una rama?¿Cómo creamos una rama y trabajamos entre ellas?¿Y si queremos unir ramas?
 """
 Una rama es una bifulcación de la línea principal (main), las ramas se crean con un git branch <Nombre de la rama que quieres crear> o con un git checkout -b <Nombre de la rama que quieres crear> y esta se cambia tambien a la nueva. Para unirlas se puede usar un git merge.
 """
+
+print("Las ramas son herramientas proporcionadas por los sistemas de control de versiones para poder trabajar paralelamente en distintas versiones del código sin interferir entre si.")
+print("Una rama la creamos con git branch <nombreRama> y trabajamos entre ellas con git checkout <nombreRama>, que nos permite cambiar de ramas.")
+print("Para unir ramas usamas git merge <nombreRama>")
+
+
 
 #Actividad 4. (1 punto) 1.¿Cómo observaríamos el estado de nuestro repositorio? 2.¿Cómo comprobamos los commits realizados?
 #3.¿Con cuál instrucción prepararíamos el repositorio para pasar de working area a staging area?
