@@ -52,10 +52,10 @@ punto (git add .).
 # Explica el proceso completo de depuración para el siguiente código, incluyendo la inspección de variables desde el inicio hasta el final del proceso.
 
 def max(n1, n2):
-    if n1>n2:
-        return n1
-    else:
+    if n2<n1:
         return n2
+    elif n1<n2:
+        return n1
 print(max(100,50))
 """
 El operador de comparación está justo al contrario, ya que retorna el menor y no el mayor, si cambias < por > en ambos,
@@ -69,7 +69,6 @@ elif + else posterior.
 """
 
 """
-
 
 #Actividad 7. Pseint (1 punto) Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Además, queremos saber si el porcentaje es par o impar.
 # En el caso de ser 0, debe visualizar “el número no es par ni impar”  Diseñar un algoritmo para este propósito . 
