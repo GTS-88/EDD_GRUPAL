@@ -4,3 +4,9 @@ algunas salsas también
 A mi me gustaria que trajeses la salga barbacoa
 Julián: Yo voy a traer comida, en concreto hamburguesas, filetes y algunas salchichitas.
 Vicente: Yo voy a traer algo de alcohol como ginebra, ron, whisky.
+<<<<<<< HEAD
+Es posible que se genere un conflicto
+=======
+Hay que beber con cabeza
+linea para generar conflictos
+>>>>>>> a0d68a2cb4d3837d14603abf799c67779d2482ce
