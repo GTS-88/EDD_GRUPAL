@@ -110,6 +110,10 @@ print("Cantidad de impares:", cantidadImpares)
 
 #Actividad 10. (1 punto) Describe los pasos para pasar de repositorio local a remoto.
 """
+EL repositorio local se puede crear de dos formas distintas una es con el botón derecho del ratón y seleccionar git bash here o desde una ruta y escribit git init.
+Para pasar este repositorio local a remoto debemos de debemos de ir a github y crear un repositorio desde ahí en el repositorio después de esto copiamos el URL del repositorio y lo enlazamos ponienod git remote add origin <URL>
+Para verificar el repositorio hacemos un git remote -v y saldrán 2 líneas una con un origin <url> (fetch) y un origin <url> (push)
+Ya para subir el repositorio creado hacemos un git push origin main/rama en la que estemos.
 """
 
 
