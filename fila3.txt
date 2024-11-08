@@ -14,6 +14,4 @@ Pablo --> Hacer la comida y la cena, limpiar la cocina, fregar los cacharros y p
 Si no os gusta su comida es lo que hay.
 Hay una dieta distinta para Alejandro Nieto que esta en operacion bikini.
 =======
-Alejandro Nieto --> Lavar la ropa, tender la ropa, hacer la comida, limpiar el suelo , sacar al perro ,Limpiar las vetanas.
-Pin, pan, pun, el secador es de Nieto no lo cojais 
->>>>>>> f90a4f036f75a81462b833be0108e61324aed008
+
