@@ -26,7 +26,11 @@ Lista Barbacoa Categorizada:
 - Mayonesa
 - Ketchut
 - Cheddar
-
+- Barbacoa
+- Cesar
+- Patatas campesinas
+- Doritos
+- Cheetos
 
 4. Otros:
 
