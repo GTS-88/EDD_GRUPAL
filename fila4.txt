@@ -1,0 +1,8 @@
+FILA  ÁNGEL ROLDÁN, RODRIGO BERNAL, VICENTE GOMEZ Y JULIÁN NAVAS.
+Ángel: Yo voy a traer bebidas para la barbacoa, como cerveza y fanta.
+algunas salsas también - Gaucha, bbq y ali oli
+Julián: Yo voy a traer comida, en concreto hamburguesas, filetes y algunas salchichitas.
+Vicente: Yo voy a traer algo de alcohol como ginebra, ron, whisky.
+Es posible que se genere un conflicto
+Hay que beber con cabeza
+linea para generar conflictos
