@@ -30,7 +30,7 @@ Despues crearia los directorios o archivos donde me gustaria iniciar mi reposito
 
 #Actividad 3. (1 punto) ¿Qué es una rama?¿Cómo creamos una rama y trabajamos entre ellas?¿Y si queremos unir ramas?
 """
-
+Una rama es una bifulcación de la línea principal (main), las ramas se crean con un git branch <Nombre de la rama que quieres crear> o con un git checkout -b <Nombre de la rama que quieres crear> y esta se cambia tambien a la nueva. Para unirlas se puede usar un git merge.
 """
 
 #Actividad 4. (1 punto) 1.¿Cómo observaríamos el estado de nuestro repositorio? 2.¿Cómo comprobamos los commits realizados?
