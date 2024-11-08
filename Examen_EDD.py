@@ -17,7 +17,7 @@ if tipo_viaje=="Acciona":
 elif tipo_viaje=="Standard":
     respuesta = minutos*0.36
 elif tipo_viaje=="Custom" or tipo_viaje=="X-tra":
-    respuesta = minutos*0.39
+    respuesta = minutos*0.23
 
 print(respuesta)
 
