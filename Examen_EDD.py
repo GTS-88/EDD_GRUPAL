@@ -32,10 +32,6 @@ print("Un repositorio es el area de trabajo donde se guarda unos archivos y fich
 Una rama es una bifulcación de la línea principal (main), las ramas se crean con un git branch <Nombre de la rama que quieres crear> o con un git checkout -b <Nombre de la rama que quieres crear> y esta se cambia tambien a la nueva. Para unirlas se puede usar un git merge.
 """
 
-print("Las ramas son herramientas proporcionadas por los sistemas de control de versiones para poder trabajar paralelamente en distintas versiones del código sin interferir entre si.")
-print("Una rama la creamos con git branch <nombreRama> y trabajamos entre ellas con git checkout <nombreRama>, que nos permite cambiar de ramas.")
-print("Para unir ramas usamas git merge <nombreRama>")
-
 
 
 #Actividad 4. (1 punto) 1.¿Cómo observaríamos el estado de nuestro repositorio? 2.¿Cómo comprobamos los commits realizados?
