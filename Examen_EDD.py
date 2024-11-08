@@ -8,18 +8,19 @@
 
 #Nota: El precio por minuto de Acciona es de 0.31cent/min en Standar, 0,36 cent/min en Custom y 0,39€ cent/min en X-tra.
 
+def calcular_precio(tipo, tiempo):
+    match tipo:
+        case "Standard":
+            return tiempo*0.31
+        case "Custom":
+            return tiempo*0.36
+        case "X-tra":
+            return tiempo*0.39
+
 minutos = int(input("Introduce cunatos minutos durara el viaje: "))
-tipo_viaje = input("Introduce el tipo de viaje (Acciona, Standar y Custom o X-tra): ")
-respuesta = ""
+tipo_viaje = input("Introduce el tipo de viaje (Standar, Custom o X-tra): ")
 
-if tipo_viaje=="Acciona":
-    respuesta = minutos*0.31
-elif tipo_viaje=="Standard":
-    respuesta = minutos*0.36
-elif tipo_viaje=="Custom" or tipo_viaje=="X-tra":
-    respuesta = minutos*0.39
-
-print(respuesta)
+print(calcular_precio(tipo_viaje,minutos))
 
 #Actividad 2. (1 punto) git. Qué es un repositorio?¿Qué comando es necesario para crear un repositorio?  ¿Cómo configurarías inicialmente git?
 """ Un repositorio es el area de trabajo donde se guarda unos archivos y ficheros , el comando para crear un repositorio es git init  , lo configuraría primero poniendo mi nombre de usuario , el email , con el comando git config --global user.name y user.email.

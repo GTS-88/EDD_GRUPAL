@@ -4,20 +4,42 @@ Lista Barbacoa Categorizada:
 
 1. Carnes:
 
--Hamburguesa 
--Salchichas
+- Hamburguesa 
+- Salchichas
+- Filetes pollo
+- Filetes lomo
+- Ternera
+- Chuletas cerdo
 
 2. Bebida:
--Cocacola
+- Cocacola
 - Fanta
 - Pêpsi
+- Zumo
+- Batidos
+- Cerveza
+- Legendario
+- 7up
+- Sprite
 
 3. Snacks y Salsas:
--Mayonesa
--Ketchut
--Cheddar
+- Mayonesa
+- Ketchut
+- Cheddar
+- Barbacoa
+- Cesar
+- Patatas campesinas
+- Doritos
+- Cheetos
 
 4. Otros:
 
 - Carbón
 - Altavoces
+- Juegos mesa
+- Servilletas
+- Platos
+- Cubiertos
+- Mantel
+- Pinzas
+- Sal
