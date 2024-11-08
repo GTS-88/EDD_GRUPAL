@@ -29,9 +29,10 @@ Despues crearia los directorios o archivos donde me gustaria iniciar mi reposito
 """
 
 #Actividad 3. (1 punto) ¿Qué es una rama?¿Cómo creamos una rama y trabajamos entre ellas?¿Y si queremos unir ramas?
-"""
+print("Las ramas son herramientas proporcionadas por los sistemas de control de versiones para poder trabajar paralelamente en distintas versiones del código sin interferir entre si.")
+print("Una rama la creamos con git branch <nombreRama> y trabajamos entre ellas con git checkout <nombreRama>, que nos permite cambiar de ramas.")
+print("Para unir ramas usamas git merge <nombreRama>")
 
-"""
 
 #Actividad 4. (1 punto) 1.¿Cómo observaríamos el estado de nuestro repositorio? 2.¿Cómo comprobamos los commits realizados?
 #3.¿Con cuál instrucción prepararíamos el repositorio para pasar de working area a staging area?
