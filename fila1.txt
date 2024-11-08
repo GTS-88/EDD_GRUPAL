@@ -16,6 +16,11 @@ Lista Barbacoa Categorizada:
 - Fanta
 - Pêpsi
 - Zumo
+- Batidos
+- Cerveza
+- Legendario
+- 7up
+- Sprite
 
 3. Snacks y Salsas:
 - Mayonesa
