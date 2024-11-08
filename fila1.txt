@@ -6,7 +6,10 @@ Lista Barbacoa Categorizada:
 
 - Hamburguesa 
 - Salchichas
-
+- Filetes pollo
+- Filetes lomo
+- Ternera
+- Chuletas cerdo
 
 2. Bebida:
 - Cocacola
