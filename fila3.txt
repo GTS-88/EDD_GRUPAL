@@ -1,4 +1,4 @@
-Ruben, Alejandro, Pablo y Jose.
+﻿Ruben, Alejandro, Pablo y Jose.
 
 <<<<<<< HEAD
 Alejandro Nieto --> Lavar la ropa, tender la ropa, hacer la comida, limpiar el suelo y sacar al perro 
@@ -8,3 +8,7 @@ TAREAS DE CASA COMPARTIDA
 Jose --> Limpiar el polvo de los muebles y limpiar el baño.
 El yogur de coco de la nevera es de Jose, no lo cojáis :((((((.
 >>>>>>> 60f95b53504ab00f0e4c8b1f603718657c131bce
+
+Pablo --> Hacer la comida y la cena, limpiar la cocina, fregar los cacharros y poner el lavavajillas.
+Si no os gusta su comida es lo que hay.
+Hay una dieta distinta para Alejandro Nieto que esta en operacion bikini.
