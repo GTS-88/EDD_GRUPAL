@@ -98,7 +98,43 @@ FinAlgoritmo
 # En el caso de ser 0, debe visualizar “el número no es par ni impar”  Diseñar un algoritmo para este propósito . 
 
 """
-
+Escribir "El director de la escuela necesita saber cuanto porcentaje de niños y niñas hay en el curso actual"
+	Escribir "Cuántos niños hay: "
+	Leer Niños
+	Escribir "Cuántos niñas hay: "
+	Leer Niñas
+	
+	TotalDeAlumnos = Niños+Niñas
+	si TotalDeAlumnos = 0
+		Escribir "No existe curso"
+	SiNo
+		PorNiños= Trunc(Niños*100/TotalDeAlumnos)
+		PorNiñas= trunc(Niñas*100/TotalDeAlumnos)
+	FinSi
+	
+	
+	Escribir "Hay un " PorNiños "% de niños" 
+	Escribir "Hay un " PorNiñas "% de niñas"
+	
+	si Niños =0
+		Escribir "El porcentaje de niños no es par ni impar"
+	SiNo
+		si PorNiños %2 = 0
+		Escribir "El porcentaje de niños es par"
+		SiNo
+			Escribir "El porcentaje de niños es impar"
+		FinSi
+	FinSi
+	
+	si PorNiñas = 0
+		Escribir "El porcentaje de niñas no es par ni impar"
+	SiNo
+		si PorNiñas %2 = 0
+			Escribir "El porcentaje de niñas es par"
+		SiNo
+			Escribir "El porcentaje de niñas es impar"
+		FinSi
+	FinSi
 """
 #Actividad 8. (1 punto) Describe el procedimiento para ver el estado de nuestro código, elegir uno especifico y enviarlo a repositorio local.  ¿Cómo volverías a una versión anterior?
 """
