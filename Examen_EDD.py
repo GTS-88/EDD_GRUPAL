@@ -74,7 +74,6 @@ Algoritmo Examen
 	Escribir "El juego consiste en que se sacará un número al azar entre el 0 y el 500 si el número escogido es menor que 100 el descuento es del 10%, si es mayor o igual a 100 el descuento es del 20%. Además, si el número es par,  se le aplicará un 2% adicional. Por el contrario, si es impar, se le aplicará un 3%"
 	Numeroazar=Aleatorio(0,500)
 	descuento_final=0
-	NumPar=PAR
 	Escribir  "El número que salió fué el " Numeroazar
 	si Numeroazar >100
 		descuento_final= descuento_final+20
