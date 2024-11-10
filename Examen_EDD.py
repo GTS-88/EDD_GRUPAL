@@ -138,7 +138,11 @@ Escribir "El director de la escuela necesita saber cuanto porcentaje de niños y
 """
 #Actividad 8. (1 punto) Describe el procedimiento para ver el estado de nuestro código, elegir uno especifico y enviarlo a repositorio local.  ¿Cómo volverías a una versión anterior?
 """
-
+Para ver el estado del repositorio local y saber que cambios se han realizado, usamos git status y si queremos ver el cambio que hemos realizado en un archivo, utilizamos git diff,
+para elegir un archivo usamos git add <nombre del archivo> o si queremos seleccionar todos los cambios de todos los archivos, usamos git add .
+una vez seleccionado los archivos hacemos un commit, git commit -m"Describimos el cambio realizado" y enviamos los cambios al repositorio local con 
+git push origin main  y para finalizar si queremos volver a una versión anterior primero hacemos un git log para ver el historial de commits, y para volver a un commit especifico 
+git checkout <nombre del commit>, hay que tener en cuenta que esto te dejara en un estado en el que no estarás trabajando realmente en ninguna rama en particular
 """
 
 
