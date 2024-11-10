@@ -22,4 +22,41 @@ Algoritmo Examen
 	Escribir "El descuento es de " (dineroTotal*descuento_final)/100 "$"
 	Escribir "El dinero a pagar es " dineroTotal-(dineroTotal*descuento_final)/100 "$"
 	
+	//Ejercicio 2 PseInt 
+	Escribir "El director de la escuela necesita saber cuanto porcentaje de niños y niñas hay en el curso actual"
+	Escribir "Cuántos niños hay: "
+	Leer Niños
+	Escribir "Cuántos niñas hay: "
+	Leer Niñas
+	
+	TotalDeAlumnos = Niños+Niñas
+	si TotalDeAlumnos = 0
+		Escribir "No existe curso"
+	SiNo
+		PorNiños= Trunc(Niños*100/TotalDeAlumnos)
+		PorNiñas= trunc(Niñas*100/TotalDeAlumnos)
+	FinSi
+	
+	Escribir "Hay un " PorNiños "% de niños" 
+	Escribir "Hay un " PorNiñas "% de niñas"
+	
+	si Niños =0
+		Escribir "El porcentaje de niños no es par ni impar"
+	SiNo
+		si PorNiños %2 = 0
+			Escribir "El porcentaje de niños es par"
+		SiNo
+			Escribir "El porcentaje de niños es impar"
+		FinSi
+	FinSi
+	
+	si PorNiñas = 0
+		Escribir "El porcentaje de niñas no es par ni impar"
+	SiNo
+		si PorNiñas %2 = 0
+			Escribir "El porcentaje de niñas es par"
+		SiNo
+			Escribir "El porcentaje de niñas es impar"
+		FinSi
+	FinSi
 FinAlgoritmo
