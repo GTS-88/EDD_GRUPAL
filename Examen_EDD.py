@@ -10,7 +10,7 @@
 
 def calcular_precio(tipo, tiempo):
     match tipo:
-        case "Standard":
+        case "Standar":
             return tiempo*0.31
         case "Custom":
             return tiempo*0.36
@@ -50,11 +50,19 @@ punto (git add .).
 
 #Actividad 5. (1 punto) Haciendo uso del debugger, corrige los errores sintácticos del siguiente programa que dado dos números, devuelve el mayor. 
 # Explica el proceso completo de depuración para el siguiente código, incluyendo la inspección de variables desde el inicio hasta el final del proceso.
-
-def max(n1, n2):
+"""Este es el código dado"""
+"""def max(n1, n2):
     if n2<n1:
         return n2
     elif n1<n2:
+        return n1
+print(max(100,50))"""
+
+"""Este es el código depurado"""
+def max(n1, n2):
+    if n2>n1:
+        return n2
+    else:
         return n1
 print(max(100,50))
 """
@@ -150,9 +158,32 @@ git checkout <nombre del commit>, hay que tener en cuenta que esto te dejara en 
 #Actividad 9 (2 puntos) Haciendo uso del debugger, corrige los errores sintácticos del siguiente programa que permite al usuario ingresar números enteros. La repetición termina cuando 
 # el usuario ingresa un número para el cual la suma de sus dígitos sea mayor que 1000 ó múltiplo de 5. Finalmente, mostrar cuántos números impares ingresó el usuario antes de cortar la 
 # repetición. Explica el proceso completo de depuración para el siguiente código, incluyendo la inspección de variables desde el inicio hasta el final del proceso.
+"""
+Este es el código dado
+def esPar(numero): 
+    return numero % 3 == 0
+
+def sumatoriaDigitos(numero):
+    total = 0
+    while total != 0:
+        ultimoDigito = numero % 10
+        total = total + ultimoDigito
+        numero = numero / 10
+    return total
+
+cantidadImpares = 0
+n = int(input("Escribe un número:"))
+while sumatoriaDigitos(n) > 1000 and sumatoriaDigitos(n) % 3 != 0:
+    if esPar(n):
+        cantidadImpares = cantidadImpares + 1
+    n = int(input("Escribe un número:"))
+print("Cantidad de impares:", cantidadImpares)
+"""
+
+"""Este es el código depurado"""
 
 def esImpar(numero):
-    return numero%3 == 0
+    return numero%2 != 0
 
 def sumatoriaDigitos(numero):
     total = 0
@@ -171,7 +202,7 @@ while sumatoriaDigitos(n) <= 1000 and n%5 != 0:
     n = int(input("Escribe un número: "))
 
 """
-Durante el proceso de depuración me di cuenta de que la primera definición funcionaba como se esperaba para que calcule que el número sea impar
+Durante el proceso de depuración me di cuenta de que la primera definición no funcionaba como se esperaba para que calcule que el número sea impar para cambiarlo correctamente puse que si se dividía entre dos y su resto fuese distito de cero sea una definición esImpar
 Posteriormente pase a la segunda definición para comprobar si funcionaba correctamente y tras depurar en la primera línea y darle un valor a la varible
 n si el total no era igual a 0 la definición de sumatoriaDigitos no funcionaría ya que el valor de total al iniciarse es 0 siempre una vez implementado
 el cambio volví a comprobar el funciojnamiento y ya hacía su función correctamente.
